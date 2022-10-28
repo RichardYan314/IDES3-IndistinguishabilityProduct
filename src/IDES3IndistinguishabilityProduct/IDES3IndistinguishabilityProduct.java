@@ -19,7 +19,7 @@ public class IDES3IndistinguishabilityProduct implements Plugin {
         return "IDES 3 Indistinguishability Product Plugin";
     }
     public String getVersion() {
-        return "0.1";
+        return "1.0.1";
     }
     public void initialize() throws PluginInitException {
         OperationManager.instance().register(new IndistinguishabilityProduct());

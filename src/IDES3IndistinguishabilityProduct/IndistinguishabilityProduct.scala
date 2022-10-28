@@ -22,7 +22,9 @@ class IndistinguishabilityProduct extends Operation {
 
   override def getNumberOfInputs: Int = 3
 
-  override def getTypeOfInputs: Array[Class[_]] = Array(classOf[FSAModel], classOf[FSAModel], classOf[Boolean])
+  override def getTypeOfInputs: Array[Class[_]] = Array(
+    classOf[FSAModel], classOf[FSAModel],
+    classOf[java.lang.Boolean]) // cannot use scala Boolean as it is equivalent to java's primitive boolean
 
   override def getDescriptionOfInputs: Array[String] = Array("G1", "G2", "symmetric")
 

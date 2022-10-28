@@ -14,7 +14,7 @@ D. Sears and K. Rudie,
 
 ## Prerequisites
 
-Current version (v1.0.0) requires:
+Current version (v1.0.1) requires:
 
 - JRE: v17
 - [IDES3](https://github.com/krudie/IDES): v3.1.3
