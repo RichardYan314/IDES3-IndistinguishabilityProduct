@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Gradle 1" modules="IDES3-IndistinguishabilityProduct.main,IDES3-IndistinguishabilityProduct.test,IDES3IndistinguishabilityProd.main,IDES3IndistinguishabilityProd.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-17" />
+      </parameters>
+    </profile>
+  </component>
+</project>

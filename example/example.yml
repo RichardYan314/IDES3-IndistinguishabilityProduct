@@ -1,0 +1,20 @@
+name: G
+desc: ""
+layouter: Simple tree layout
+spec:
+  start states: A
+  epsilon: \epsilon
+  table:
+    A:
+      \alpha: A
+      \epsilon: B
+    B:
+      \alpha: [B, D]
+      \beta: C
+      \epsilon: C
+    C:
+      \alpha: B
+    D:
+      \beta: E
+    E:
+      \alpha: E
